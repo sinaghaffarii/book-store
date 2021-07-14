@@ -5,7 +5,7 @@ import { AiOutlinePhone } from "react-icons/ai";
 import { BiMailSend } from "react-icons/bi";
 import { FaRegAddressCard } from "react-icons/fa";
 import { ImLocation } from "react-icons/im";
-import { BiUserPlus } from 'react-icons/bi'
+import { BiUserPlus } from "react-icons/bi";
 import popcorn from "../../Components/image/Popcorns-amico.png";
 import { LinkContainer } from "react-router-bootstrap";
 
@@ -13,7 +13,7 @@ const Account = () => {
   return (
     <div className="container-fluid my-5 ">
       <Row>
-      <Col
+        <Col
           lg={4}
           md={8}
           sm={10}
@@ -237,31 +237,29 @@ const Account = () => {
                   <ImLocation className="position-absolute text-info icon-location" />
                 </div>
               </div>
-              
             </div>
             <div className="custom-control custom-checkbox text-right mb-3">
-              <input type="checkbox" className="custom-control-input" id="customCheck1"/>
-            <label className="custom-control-label" for="customCheck1" >شرایط ثبت نام را مطالعه کرده و میپذیرم</label>
+              <input
+                type="checkbox"
+                className="custom-control-input"
+                id="customCheck1"
+              />
+              <label className="custom-control-label" for="customCheck1">
+                شرایط ثبت نام را مطالعه کرده و میپذیرم
+              </label>
             </div>
             <div className="text-right my-2">
-            <LinkContainer to="/account">
-            <button type="submit" className="btn btn-primary">
-              ارسال  <BiUserPlus/>
-            </button>
-            </LinkContainer>
+              <LinkContainer to="/account">
+                <button type="submit" className="btn btn-primary">
+                  ارسال <BiUserPlus />
+                </button>
+              </LinkContainer>
             </div>
           </form>
         </Col>
-
       </Row>
-    
     </div>
   );
 };
 
-
-
 export default Account;
-
-
-
