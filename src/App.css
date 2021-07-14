@@ -108,7 +108,12 @@ main {
   color: rgba(72, 126, 176,1.0);
 }
 
-
+.link-footer {
+  cursor: pointer;
+}
+.link-footer:hover {
+  color: #6c5ce7;
+}
 
 @media only screen and (max-width: 480px) {
   .h5 {

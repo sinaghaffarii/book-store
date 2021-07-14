@@ -5,7 +5,7 @@ import { FaAddressBook } from "react-icons/fa";
 import { HiOutlineMailOpen } from "react-icons/hi";
 import "./Footer.css";
 import note from "../image/Notes-bro.png";
-import { Link } from 'react-router-dom'
+
 
 const Footer = () => {
   return (
@@ -15,23 +15,22 @@ const Footer = () => {
           <Col lg={2} md={4} sm={12} className="mx-auto order-3">
             <Image src={note} className="illustrator d-block mx-auto" />
           </Col>
-          <Col lg={2} md={4} sm={12} className="mx-auto mt-5 text-center order-2">
+          <Col
+            lg={2}
+            md={4}
+            sm={12}
+            className="mx-auto mt-5 text-center order-2"
+          >
             <h6>دسترسی سریع</h6>
             <ul className="list-group list-group-flush">
               <li className="list-group-item">
-                <Link to="/book-store" className="text-decoration-none text-dark">
-                  درباره ما
-                </Link>
+                <p className="link-footer">درباره ما</p>
               </li>
               <li className="list-group-item">
-                <Link to="/book-store" className="text-decoration-none text-dark">
-                  تماس با ما
-                </Link>
+                <p className="link-footer">تماس با ما</p>
               </li>
               <li className="list-group-item">
-                <Link to="/book-store" className="text-decoration-none text-dark">
-                  قوانین و مقررات سایت
-                </Link>
+                <p className="link-footer">قوانین و مقررات سایت</p>
               </li>
             </ul>
           </Col>
