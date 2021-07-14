@@ -18,7 +18,7 @@ const Product = ({ match , history}) => {
 
   return (
     <Container className="mb-5">
-      <Link to="/" className="btn btn-outline-primary mt-4 ">
+      <Link to="/book-store" className="btn btn-outline-primary mt-4 ">
         بازگشت به صفحه اصلی
       </Link>
       <Row>
