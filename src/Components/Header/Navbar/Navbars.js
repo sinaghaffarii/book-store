@@ -15,7 +15,7 @@ const Navbars = () => {
       className="shadow-sm position-sticky fixed-top"
     >
       <Container fluid className="d-flex justify-content-between mx-2">
-        <LinkContainer to="/">
+        <LinkContainer to="/book-store/">
           <Navbar.Brand>
             <SiReactrouter className="logo" />
           </Navbar.Brand>
@@ -27,7 +27,7 @@ const Navbars = () => {
             <LinkContainer to="/store">
               <Nav.Link className="nav-item my-auto mx-2 ">فروشگاه</Nav.Link>
             </LinkContainer>
-            <LinkContainer to="/">
+            <LinkContainer to="/book-store/">
               <Nav.Link className="nav-item my-auto mx-2">صفحه اصلی</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/account">
