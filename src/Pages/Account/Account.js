@@ -44,7 +44,7 @@ const Account = () => {
                 />
               </div>
               <div className="col-md-6 mb-3">
-                <label for="validationDefault02">نام و خوانوادگی</label>
+                <label for="validationDefault02">نام خوانوادگی</label>
                 <input
                   type="text"
                   className="form-control"
