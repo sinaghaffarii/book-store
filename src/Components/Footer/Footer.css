@@ -1,0 +1,47 @@
+.footer {
+  min-width: 100%;
+  min-height: 300px;
+  background: #f5f6fa;
+  box-shadow:  0 -1px 2px #dcdde1 ;
+  color: #353b48;
+ right: 0;
+ bottom: 0;
+ position: relative;
+}
+
+.icons {
+  border: 0.1px solid rgba(53, 59, 72,0.2);
+ font-size: 1.1rem;
+ padding: 0 0.4rem;
+ border-radius: 5px;
+ cursor: pointer;
+ transition: 0.3s all ease;
+}
+
+.icons:hover {
+  background: #9c88ff;
+  border: 1px solid #9c88ff;
+  color: aliceblue;
+ 
+}
+
+.list-group-item {
+  background: transparent !important;
+}
+
+.list-group-item a {
+  text-decoration: none;
+}
+.list-group-item a:hover {
+  color: #9c88ff;
+}
+
+
+@media only screen and (max-width : 768px) {
+  .etelaat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}

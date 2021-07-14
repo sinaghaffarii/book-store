@@ -1,0 +1,47 @@
+.logo {
+  font-size: 2.4rem;
+  color: #11999e;
+}
+
+.logo-shop {
+  font-size: 1.9rem;
+  color: #007580;
+  background: #9ddfd3;
+  padding: 0.3rem 0.5rem;
+  border-radius: 5px;
+  opacity: 0.6;
+}
+
+.logo-shop:hover {
+  transform: scale(1.05);
+  color: #9ddfd3;
+  background: #007580;
+}
+
+.logo-shop:active {
+  transform: scale(0.97);
+
+}
+
+.nav-item button {
+  background: #11999e !important;
+  color: #e4f9f5 !important;
+}
+
+.nav-item button:hover {
+  color: #f6f6f6 !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-item {
+    text-align: center;
+    margin: 5px auto;
+  }
+  .nav-item button {
+    display: block;
+    width: 120px;
+  }
+  .logo-shop {
+    width: 100px;
+  }
+}
