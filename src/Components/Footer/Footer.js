@@ -5,6 +5,7 @@ import { FaAddressBook } from "react-icons/fa";
 import { HiOutlineMailOpen } from "react-icons/hi";
 import "./Footer.css";
 import note from "../image/Notes-bro.png";
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -18,19 +19,19 @@ const Footer = () => {
             <h6>دسترسی سریع</h6>
             <ul className="list-group list-group-flush">
               <li className="list-group-item">
-                <a href="/" className="text-decoration-none text-dark">
+                <Link to="/book-store" className="text-decoration-none text-dark">
                   درباره ما
-                </a>
+                </Link>
               </li>
               <li className="list-group-item">
-                <a href="/" className="text-decoration-none text-dark">
+                <Link to="/book-store" className="text-decoration-none text-dark">
                   تماس با ما
-                </a>
+                </Link>
               </li>
               <li className="list-group-item">
-                <a href="/" className="text-decoration-none text-dark">
+                <Link to="/book-store" className="text-decoration-none text-dark">
                   قوانین و مقررات سایت
-                </a>
+                </Link>
               </li>
             </ul>
           </Col>
