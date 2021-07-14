@@ -15,32 +15,32 @@ const Navbars = () => {
       className="shadow-sm position-sticky fixed-top"
     >
       <Container fluid className="d-flex justify-content-between mx-2">
-        <Navbar.Brand href="/book-store">
-          <LinkContainer to="/book-store">
+        <LinkContainer to="/">
+          <Navbar.Brand>
             <SiReactrouter className="logo" />
-          </LinkContainer>
-        </Navbar.Brand>
+          </Navbar.Brand>
+        </LinkContainer>
+
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
             <LinkContainer to="/store">
               <Nav.Link className="nav-item my-auto mx-2 ">فروشگاه</Nav.Link>
             </LinkContainer>
-            <LinkContainer to="/book-store">
+            <LinkContainer to="/">
               <Nav.Link className="nav-item my-auto mx-2">صفحه اصلی</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/account">
               <Nav.Link className="nav-item ">
                 <div className=" mx-2">
-                <FaUserAlt className="logo-shop"/>
+                  <FaUserAlt className="logo-shop" />
                 </div>
               </Nav.Link>
             </LinkContainer>
             <LinkContainer to="/cart">
               <Nav.Link className="nav-item">
-                
                 <div className=" mx-2">
-                <RiShoppingCartLine className="logo-shop" />
+                  <RiShoppingCartLine className="logo-shop" />
                 </div>
               </Nav.Link>
             </LinkContainer>
