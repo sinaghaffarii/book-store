@@ -22,6 +22,10 @@ main {
   transform: scale(1.03);
 }
 
+.card-body {
+  padding: 1rem !important;
+}
+
 
 .h5 {
   font-size: 1.12rem !important;
