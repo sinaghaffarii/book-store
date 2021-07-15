@@ -40,10 +40,10 @@ const Home = () => {
         </Container>
       </div>
       <div className="container-fluid ">
-        <Row className=" my-5 px-1 mx-auto">
+        <Row className=" my-5  mx-auto">
           {products.map((item) => {
             return (
-              <Col key={item._id} lg={3} md={4} sm={6} xs={12}>
+              <Col key={item._id} lg={3} md={4} sm={6} xs={12} className="mx-auto">
                 <Product product={item} />
               </Col>
             );
