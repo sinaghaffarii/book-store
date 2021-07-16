@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Row, Col } from "react-bootstrap";
+import { Row, Col , Container} from "react-bootstrap";
 import { products } from "../../products";
 import Product from "../../Components/Product/Product";
 import { BiSearchAlt } from "react-icons/bi";
@@ -8,7 +8,8 @@ const Store = () => {
   const [searchBar, setSearchBar] = useState("");
 
   return (
-    <div>
+  <Container fluid>
+      <div>
       <Row>
         <Col
           lg={3}
@@ -41,7 +42,8 @@ const Store = () => {
         </Col>
       </Row>
 
-      <Row className="mt-2 mb-5 px-5">
+ 
+    <Row className="mt-2 mb-5 px-5">
         {products.filter((item) => {
           if(searchBar == '') {
             return item 
@@ -56,7 +58,9 @@ const Store = () => {
             );
           })}
       </Row>
+  
     </div>
+  </Container>
   );
 };
 
