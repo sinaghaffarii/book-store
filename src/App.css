@@ -118,6 +118,34 @@ main {
   color: #6c5ce7;
 }
 
+
+.myindex {
+  z-index: 1000;
+}
+
+.shadow-sm-me {
+  box-shadow: 0 1px 4px  rgba(112, 111, 211,0.2) ;
+}
+
+.shadow-me {
+box-shadow: 0 1px 4px rgba(52, 172, 224,0.3);
+}
+
+.mybutton {
+  background-color: rgba(112, 111, 211,1.0);
+  color: rgba(247, 241, 227,1.0);
+  border-radius: 22px;
+  border: none;
+  outline: none;
+  padding: 0.4rem 1.5rem;
+}
+.mybutton:hover {
+  background-color: rgba(71, 71, 135,1.0);
+}
+.mybutton:active {
+  transform: scale(0.96);
+}
+
 @media only screen and (max-width: 480px) {
   .h5 {
     font-size: 0.9rem !important;

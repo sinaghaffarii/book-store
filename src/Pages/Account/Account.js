@@ -27,70 +27,65 @@ const Account = () => {
           md={8}
           sm={10}
           xs={10}
-          className="mx-auto order-0 border p-3 rounded shadow "
+          className="mx-auto order-0 border-none p-3 rounded shadow-me "
         >
           <form>
-            <div className="border  text-center w-25 d-flex justify-content-center text-center mx-auto mb-3 rounded shadow-sm">
+            <div className="border-none rounded-pill  text-center w-25 d-flex justify-content-center text-center mx-auto mb-3 rounded shadow-sm-me">
               <p className="my-auto py-2">فرم ثبت نام</p>
             </div>
             <div className="form-row">
               <div className="col-md-6 mb-3">
-                <label for="validationDefault01">نام</label>
                 <input
                   type="text"
-                  className="form-control"
-                  id="validationDefault01"
+                  className="form-control text-right border-light complete rounded-pill shadow-sm-me"
+                  placeholder="نام"
                   required
                 />
               </div>
               <div className="col-md-6 mb-3">
-                <label for="validationDefault02">نام خوانوادگی</label>
                 <input
                   type="text"
-                  className="form-control"
-                  id="validationDefault02"
+                  className="form-control text-right border-light complete rounded-pill shadow-sm-me"
+                  placeholder="نام خوانوادگی"
                   required
                 />
               </div>
               <div className="col-md-12 mb-3">
-                <label for="validationDefault03">ایمیل</label>
                 <input
                   type="email"
-                  className="form-control"
-                  id="validationDefault03"
+                  className="form-control text-right border-light complete rounded-pill shadow-sm-me"
+                  placeholder="ایمیل"
                   required
                 />
               </div>
               <div className="col-md-6 mb-3">
-                <label for="validationDefault04">رمز عبور</label>
                 <input
                   type="text"
-                  className="form-control"
-                  id="validationDefault04"
+                  className="form-control text-right border-light complete rounded-pill shadow-sm-me"
+                  placeholder="رمز عبور"
                   required
                 />
               </div>
               <div className="col-md-6 mb-3">
-                <label for="validationDefault05">تکرار رمز عبور</label>
                 <input
                   type="text"
-                  className="form-control"
-                  id="validationDefault05"
-                  required
+                  className="form-control text-right border-light complete rounded-pill shadow-sm-me"
+                  placeholder="تکرار رمز عبور"
+                   required
                 />
               </div>
               <div className="my-3 col-md-12">
-                <div className="input-group">
+                <div className="input-group ">
                   <div className="input-group-prepend">
                     <label
-                      className="input-group-text"
+                      className="input-group-text  border-light  rounded-pill shadow-sm-me position-absolute myindex"
                       for="validatedInputGroupSelect"
                     >
                       کشور
                     </label>
                   </div>
                   <select
-                    className="custom-select"
+                    className="custom-select  border-light  rounded-pill shadow-sm-me w-100 position-relative"
                     id="validatedInputGroupSelect"
                     required
                   >
@@ -105,14 +100,14 @@ const Account = () => {
                 <div className="input-group">
                   <div className="input-group-prepend">
                     <label
-                      className="input-group-text"
+                      className="input-group-text border-light  rounded-pill shadow-sm-me  position-absolute myindex"
                       for="validatedInputGroupSelect01"
                     >
                       استان
                     </label>
                   </div>
                   <select
-                    className="custom-select"
+                    className="custom-select border-light  rounded-pill shadow-sm-me w-100 position-relative"
                     id="validatedInputGroupSelect01"
                     required
                   >
@@ -127,14 +122,14 @@ const Account = () => {
                 <div className="input-group">
                   <div className="input-group-prepend">
                     <label
-                      className="input-group-text"
+                      className="input-group-text border-light  rounded-pill shadow-sm-me position-absolute myindex"
                       for="validatedInputGroupSelect02"
                     >
                       شهر
                     </label>
                   </div>
                   <select
-                    className="custom-select"
+                    className="custom-select border-light  rounded-pill shadow-sm-me w-100 position-relative"
                     id="validatedInputGroupSelect02"
                     required
                   >
@@ -149,7 +144,7 @@ const Account = () => {
                 <div className="input-group">
                   <div className="input-group-prepend">
                     <label
-                      className="input-group-text"
+                      className="input-group-text border-light  rounded-pill shadow-sm-me  position-absolute myindex h-100"
                       for="validatedInputGroupSelect03"
                     >
                       <AiOutlinePhone />
@@ -158,7 +153,7 @@ const Account = () => {
 
                   <input
                     type="text"
-                    className="form-control"
+                    className="form-control border-light text-right  rounded-pill shadow-sm-me w-100 position-relative"
                     id="validatedInputGroupSelect03"
                     placeholder="تلفن"
                     required
@@ -169,7 +164,7 @@ const Account = () => {
                 <div className="input-group">
                   <div className="input-group-prepend">
                     <label
-                      className="input-group-text"
+                      className="input-group-text border-light  rounded-pill shadow-sm-me position-absolute h-100 myindex"
                       for="validatedInputGroupSelect04"
                     >
                       <AiOutlineMobile />
@@ -178,7 +173,7 @@ const Account = () => {
 
                   <input
                     type="text"
-                    className="form-control"
+                    className="form-control border-light  rounded-pill shadow-sm-me w-100 position-relative text-right"
                     id="validatedInputGroupSelect04"
                     placeholder="تلفن همراه"
                     required
@@ -189,7 +184,7 @@ const Account = () => {
                 <div className="input-group">
                   <div className="input-group-prepend">
                     <label
-                      className="input-group-text"
+                      className="input-group-text border-light  rounded-pill shadow-sm-me position-absolute myindex h-100"
                       for="validatedInputGroupSelect07"
                     >
                       <BiMailSend />
@@ -198,7 +193,7 @@ const Account = () => {
 
                   <input
                     type="text"
-                    className="form-control"
+                    className="form-control border-light  rounded-pill shadow-sm-me w-100 position-relative text-right"
                     id="validatedInputGroupSelect07"
                     placeholder="کد پستی"
                     required
@@ -209,7 +204,7 @@ const Account = () => {
                 <div className="input-group">
                   <div className="input-group-prepend">
                     <label
-                      className="input-group-text"
+                      className="input-group-text border-light  rounded-pill shadow-sm-me  position-absolute myindex h-100"
                       for="validatedInputGroupSelect08"
                     >
                       <FaRegAddressCard />
@@ -218,7 +213,7 @@ const Account = () => {
 
                   <input
                     type="text"
-                    className="form-control"
+                    className="form-control border-light  rounded-pill shadow-sm-me w-100 position-relative text-right"
                     id="validatedInputGroupSelect08"
                     placeholder="کد ملی"
                     required
@@ -227,14 +222,13 @@ const Account = () => {
               </div>
 
               <div className="col-md-12 mb-3">
-                <div className="form-group  ">
-                  <label for="exampleFormControlTextarea1">آدرس</label>
+                <div className="form-group ">
                   <textarea
-                    className="form-control text-right"
-                    id="exampleFormControlTextarea1"
+                    className="form-control text-right position-relative border-light shadow-sm-me"
                     rows="3"
+                    placeholder="آدرس"
                   ></textarea>
-                  <ImLocation className="position-absolute text-info icon-location" />
+                  <ImLocation className="position-absolute text-info fixed-top m-2 icon-location" />
                 </div>
               </div>
             </div>
@@ -250,7 +244,7 @@ const Account = () => {
             </div>
             <div className="text-right my-2">
               <LinkContainer to="/account">
-                <button type="submit" className="btn btn-primary">
+                <button type="submit" className="mybutton">
                   ارسال <BiUserPlus />
                 </button>
               </LinkContainer>
